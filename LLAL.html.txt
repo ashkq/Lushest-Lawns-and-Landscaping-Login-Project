@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lushest Lawns And Landscaping</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="LLALstyle.css">
+  </head>
+  <body>
+  <script src="LLAL.JS"></script>
+    <br><br>
+    <form id="form" action onsubmit="return validate()">
+      <h1> Lushest Lawns And Landscaping </h1>
+        <label> Landscaper's First Name: </label>
+        <input type="text" placeholder="Enter First Name" id="firstname"> REQUIRED
+        <br><br>
+        <label> Landscaper's Last Name: </label>
+        <input type="text" placeholder="Enter Last Name" id="lastname"> REQUIRED
+        <br><br>
+        <label> Landscaper's Password: </label>
+        <input type="password" placeholder="Enter Password" id="password"> REQUIRED
+        <br><br>
+        <label> Landscaper's ID #: </label>
+        <input type="number" placeholder="Enter ID number" id="ID"> REQUIRED
+        <br><br>
+        <label> Landscaper's Phone #: </label>
+        <input type="text" placeholder="Enter Phone Number" id="phone"> REQUIRED
+        <br><br>
+        <label> Landscaper's Email: </label>
+        <input type="text" placeholder="Enter Email address" id="email">
+        <label id="required" class="required"> REQUIRED </label>
+        <br><br>
+        <input type="checkbox" id="emailConfirm" onclick="return emailRequired()">
+        Check the box to requset an Email Confirmation
+        <br><br>
+        <label> Select a Transaction:</label>
+          <select name="transaction" id="transaction">
+            <option> Search the Landscaper's Records </option>
+            <option> Book a Customer's Appointment </option>
+            <option> Place a Customer's Order </option>
+            <option> Update a Customer's Order </option>
+            <option> Cancel a Customer's Appointment </option>
+            <option> Cancel a Customer's Order </option>
+            <option> Create a Customer's Account </option>
+          </select>
+          <button type="submit"> Submit </button>
+          <button type="reset"> Reset </button>
+        <br><br>
+    </form>
+  </body>
+</html>

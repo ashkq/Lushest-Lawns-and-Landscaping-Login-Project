@@ -1,0 +1,9 @@
+body {background-image: url(https://images.squarespace-cdn.com/content/v1/5f909f95f565076cf9e198cf/1605756495232-VDOZ2RIM0VXG03RSW7GT/Bright+Landscapes+LLC); background-size: cover;}
+
+form {padding-left: 100px; font-weight: bold; width: fit-content; margin-left: auto; margin-right: auto; border-style: solid; display: solid; border-color: #1AD4BC; background-color:rgba(100,255,220,0.3);}
+
+h1 {font-family: Papyrus;}
+
+label {display: inline-block; width: 175px; text-align: left;}
+
+.required {visibility: hidden;}
